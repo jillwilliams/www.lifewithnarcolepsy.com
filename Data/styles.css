@@ -13,6 +13,9 @@ body {
     display: block;
     margin: 0 70px;
 }
+#nav1 a {
+    font-family: "Kalam";
+}
 nav, p {
     background-color: lightgrey;
     padding: 5px;
@@ -48,8 +51,8 @@ nav, p {
     outline: 1px black solid;
     margin-left: 25%;
     margin-right: 25%;
-    /* margin-top: 10%;
-    margin-bottom: 10%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 a {
@@ -81,7 +84,7 @@ a:hover {
     width: 100%;
     height: auto;
 }
-h5, h1 {
+h5, h2 {
     text-align: center;
     font-family: "Architects Daughter";
 }
@@ -109,6 +112,7 @@ p {
     /* margin-left: 55px; */
     margin: 10px auto;
     background-color: white;
+    font-size: 1rem;
 }
 #recentPosts {
     background-color: white;
@@ -141,5 +145,22 @@ p {
 }
 #iconBar {
     margin-left: 40px;
+}
+#walkway {
+    width: 80%;
+}
+#post {
+    text-align: center;
+    font-family: "Shadows Into Light";
+    letter-spacing: 2px;
+    padding: 0 40px;
+}
+#postTitle {
+    text-align: center;
+    font-family: "Shadows Into Light";
+    letter-spacing: 2px;
+    display: block;
+    margin: 0 55px;
 
 }
+]
