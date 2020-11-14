@@ -5,13 +5,33 @@ body {
     width: 80%;
     border: 1px black solid;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+}
+#hero {
+    width: 98%;
+    height: 300px;
+    background-color: white;
+    border: 1px white solid;
+
+}
+#rocks {
+    width: 50%;
+    height: auto;
+    border: 2px white solid;
+    outline: 1px black solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#home {
+    width: 100%;
+    height: auto;
 }
 #title {
     display: block;
-    margin: 0 70px;
+    margin: auto;
 }
 #nav1 a {
     font-family: "Kalam";
@@ -37,24 +57,6 @@ nav, p {
 
 }
 
-#hero {
-    width: 98%;
-    height: 300px;
-    background-color: white;
-    border: 1px white solid;
-
-}
-#rocks {
-    width: 50%;
-    height: auto;
-    border: 2px white solid;
-    outline: 1px black solid;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
-}
 a {
     display: flex;
     justify-content: space-between;
@@ -80,10 +82,7 @@ a:hover {
     margin-bottom: 20px;
 
 }
-#home {
-    width: 100%;
-    height: auto;
-}
+
 h5, h2 {
     text-align: center;
     font-family: "Architects Daughter";
