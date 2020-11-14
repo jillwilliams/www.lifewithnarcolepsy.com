@@ -1,0 +1,145 @@
+body {
+    background-color: lightgrey;
+}
+#openingContainer {
+    width: 80%;
+    border: 1px black solid;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+#title {
+    display: block;
+    margin: 0 70px;
+}
+nav, p {
+    background-color: lightgrey;
+    padding: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: right;
+    font-family: "Architects Daughter";
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: black;
+    overflow: hidden;
+}
+#icons {
+    width: 45px;
+    max-height: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+#hero {
+    width: 98%;
+    height: 300px;
+    background-color: white;
+    border: 1px white solid;
+
+}
+#rocks {
+    width: 50%;
+    height: auto;
+    border: 2px white solid;
+    outline: 1px black solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    
+}
+a {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Architects Daughter";
+
+}
+a:hover {
+    color: red;
+}
+#nav1 {
+    background-color: white;
+    width: 98%;
+}
+#coast {
+    width: 100%;
+
+}
+#post {
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+#home {
+    width: 100%;
+    height: auto;
+}
+h5, h1 {
+    text-align: center;
+    font-family: "Architects Daughter";
+}
+#about-rocks {
+    width: 100%;
+    height: auto;
+}
+p {
+    text-align: center;
+    font-family: "Architects Daughter";
+
+}
+#aboutUsPost {
+    text-align: center;
+    background-color: white;
+    
+}
+#postP {
+    display: block;
+    margin: 0 70px;
+    background-color: white;
+}
+#about-us {
+    text-align: center;
+    /* margin-left: 55px; */
+    margin: 10px auto;
+    background-color: white;
+}
+#recentPosts {
+    background-color: white;
+    text-align: center;
+}
+#recentPosts p {
+    background-color: white;
+}
+#recentPostsTitle {
+    display: block;
+    margin: 0 70px;
+}
+#sunset {
+    width: 100%;
+}
+#contactUs {
+    background-color: white;
+}
+#contactUsTitle {
+    display: block;
+    margin: 0 70px;
+}
+#contactUs p {
+    background-color: white;
+    text-align: center;
+}
+#contactMe {
+    text-align: center;
+    margin-left: 45px;
+}
+#iconBar {
+    margin-left: 40px;
+
+}
